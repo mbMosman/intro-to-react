@@ -8,11 +8,14 @@ import './index.css';
 // This is a simple React component. It renders an h1 element with the text "Hello, world!".
 // React components are just functions that return a React element.
 const App = () => {
-    return React.createElement(
-        "h1",           // type of element
-        {},             // element properties
-        "Hello, world!" // element children or content
-    );
+    // return React.createElement(
+    //     "h1",           // type of element
+    //     {},             // element properties
+    //     "Hello, world!" // element children or content
+    // );
+    
+    // Using JSX instead of React.createElement
+    return <h1>Hello, world!</h1>;
 };
 
 // Get the div element with the id "root" from the HTML file. (This is just JS code, no React here.)
