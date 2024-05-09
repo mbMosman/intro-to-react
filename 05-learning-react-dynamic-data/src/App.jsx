@@ -14,7 +14,7 @@ function App() {
       <p>2 + 2 = {2 + 2}</p>
 
       <p>What is the answer?</p>
-      <p>{number === 42? <li>42 is the answer!</li> : <li>The answer is not 42.</li>}</p>
+      <p>{number === 42 ? <li>42 is the answer!</li> : <li>The answer is not 42.</li>}</p>
 
       <h2>Favorite Things</h2>
       <ul>
