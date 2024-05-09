@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    /* System Fonts with emoji */
+    body {
+        font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+    background-color: cadetblue;
+  }
