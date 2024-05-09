@@ -1,4 +1,3 @@
-
 // This is a simple React component. It renders an h1 element with the text "Hello, world!".
 // React components are just functions that return a React element.
 const App = () => {
@@ -15,3 +14,4 @@ const container = document.getElementById("root");
 const root = ReactDOM.createRoot(container);
 // This tells React to render the App component into the root.
 root.render(React.createElement(App));
+

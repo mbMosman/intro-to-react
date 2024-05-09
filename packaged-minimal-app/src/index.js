@@ -1,6 +1,6 @@
 // import React from npm package instead of CDN in HTML file
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 
 // import the CSS file here instead of linking it in the HTML file
 import './index.css';
